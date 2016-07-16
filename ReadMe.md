@@ -40,7 +40,7 @@ logdis()
   .output(toStdOut)
 ```
 
-## Bundles Plugins ##
+## Bundled Plugins ##
 
 Input:
 
@@ -60,3 +60,7 @@ Output:
 ## Author ##
 
 Andrew Chilton. [@andychilton](https://twitter.com/andychilton)
+
+## License ##
+
+ISC.
