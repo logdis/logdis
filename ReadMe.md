@@ -40,6 +40,23 @@ logdis()
   .output(toStdOut)
 ```
 
+## Bundles Plugins ##
+
+Input:
+
+* [logdis-input-stdin](https://www.npmjs.com/package/logdis-input-stdin/) at `logdis.input.stdin`
+
+Filter:
+
+* [logdis-filter-to-json](https://www.npmjs.com/package/logdis-filter-to-json/) at `logdis.filter.toJson`
+* [logdis-filter-ignore-blank-lines](https://www.npmjs.com/package/logdis-ignore-blank-lines/) at `logdis.filter.ignoreBlankLines`
+* [logdis-filter-scrub](https://www.npmjs.com/package/logdis-filter-scrub/) at `logdis.filter.scrub`
+* [logdis-filter-timestamp](https://www.npmjs.com/package/logdis-filter-timestamp/) at `logdis.filter.timestamp`
+
+Output:
+
+* [logdis-output-stdout](https://www.npmjs.com/package/logdis-output-stdout/) at `logdis.output.stdout`
+
 ## Author ##
 
 Andrew Chilton. [@andychilton](https://twitter.com/andychilton)
