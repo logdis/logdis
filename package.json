@@ -1,0 +1,36 @@
+{
+  "name": "logdis",
+  "description": "Modular log processing framework - starter module ⇒ http://logdis.io/",
+  "version": "0.2.0",
+  "homepage": "http://logdis.io/",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "dependencies": {
+    "logdis-core": "^0.1.0",
+    "logdis-filter-ignore-blank-lines": "^0.1.0",
+    "logdis-filter-scrub": "^0.1.0",
+    "logdis-filter-timestamp": "^0.1.0",
+    "logdis-filter-to-json": "^0.1.0",
+    "logdis-input-stdin": "^0.1.1",
+    "logdis-output-stdout": "^0.1.0"
+  },
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/logdis/logdis.git"
+  },
+  "bugs": {
+    "url": "https://github.com/logdis/logdis/issues",
+    "email": "andychilton@gmail.com"
+  },
+  "author": {
+    "name": "Andrew Chilton",
+    "email": "andychilton@gmail.com",
+    "url": "http://chilts.org/"
+  },
+  "keywords": [ "logdis" ],
+  "license": "ISC"
+}
